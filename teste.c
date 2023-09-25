@@ -16,9 +16,8 @@ int subtrair(){
             printf("Digite o %d numero: ", i+1);
             scanf("%d", &a);
                 if(i = 0){
-
+                    subtracao = subtracao + a;
                 }
-            subtracao = subtracao + a;
         }
     subtracao = subtracao - a;
     return subtracao;
