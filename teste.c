@@ -46,7 +46,7 @@ int main (){
                     soma();
                     break;
                 case 2:
-                    subtrair();
+                    subtrair(); // linha também correta
                     break;
                 case 3:
                     raiz_quadrada(); //linha correta
