@@ -69,7 +69,7 @@ int main (){
                 case 5: 
                     break;
                 default:
-                    printf("Obrigado por usar!")
+                    printf("Obrigado por usar!");
                     break;
             }              
     }while(menu != 6);
