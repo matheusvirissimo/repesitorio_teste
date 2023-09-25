@@ -1,3 +1,9 @@
 body {
-    background-color: wheat;
+    background-color: red;
+}
+
+#titulo > #h1 {
+    color: #202021;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 64px;
 }
