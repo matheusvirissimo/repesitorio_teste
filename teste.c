@@ -30,6 +30,16 @@ double raiz_quadrada(){
     return resultado;
 }
 
+int multiplicacao(){
+    int x, multiplies = 1;
+        for(int i = 0; i < 2; i++){
+            printf("Digite o %d numero: ", i+1);
+            scanf("%d", &x);
+            multiplies = multiplies * x;
+        }
+    return multiplies;
+}
+
 #include <math.h>
 #include <stdio.h>
 int main (){
@@ -40,19 +50,27 @@ int main (){
         printf("1 - Soma\n");
         printf("2 - Subtracao\n");
         printf("3 - Raiz quadrada○\n");
-        printf("4 - Sair\n");
+        printf("4 - Multiplicacao\n");
+        printf("5 - Divisao");
+        printf("6 - Sair");
             switch(a){
                 case 1:
                     soma();
                     break;
                 case 2:
-                    subtrair(); // linha também correta
+                    subtrair();
                     break;
                 case 3:
-                    raiz_quadrada(); //linha correta
+                    raiz_quadrada(); 
+                    break;
+                case 4:
+                    multiplicacao(); 
+                    break;
+                case 5: 
                     break;
                 default:
+                    printf("Obrigado por usar!")
                     break;
             }              
-    }while(menu != 4);
+    }while(menu != 6);
 }
