@@ -49,7 +49,7 @@ int main (){
                     subtrair();
                     break;
                 case 3:
-                    raiz_quadrada();
+                    raiz_quadrada(); //linha correta
                     break;
                 default:
                     break;
